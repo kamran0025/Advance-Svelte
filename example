@@ -1,0 +1,28 @@
+//+page.ts example for the File and Folder Structure route
+
+// import type { PageLoad } from './$types';
+
+// export const ssr = false;
+
+// export const load: PageLoad = async () => {
+// 	// Data from +page.server.ts comes in via the 'data' parameter
+// 	return {
+// 		pagePost: [{
+// 			title: 'Hello world!',
+// 			content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
+// 		}]
+// 	};
+// };
+
+
+//Example when we use both +page.server.ts and +page.ts together
+// export const load: PageLoad = async ({ data }) => {
+// 	// Data from +page.server.ts comes in via the 'data' parameter
+// 	return {
+// 		...data, // Spread server data (contains 'post')
+// 		pagePost: [{
+// 			title: 'Hello world!',
+// 			content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
+// 		}]
+// 	};
+// };
